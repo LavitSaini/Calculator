@@ -1,3 +1,5 @@
+function main(){ // main function
+
 // Accessing Display and Parent Element of All Buttons
 
 // Display Box
@@ -65,3 +67,8 @@ function eventHandling(event) {
 parentElm.addEventListener("click", function (event) {
   eventHandling(event);
 });
+
+
+}
+
+main();

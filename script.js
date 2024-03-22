@@ -49,11 +49,7 @@ function eventHandling(event) {
       valueArr.pop();
       display.value = valueArr.join("");
       return;
-    } 
-
-    else if (display.value == initialValue) {
-      display.value = event.target.innerText;
-    } 
+    }
 
     else {
       display.value += event.target.innerText;
